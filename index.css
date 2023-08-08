@@ -1,0 +1,62 @@
+Body{
+
+    background-image: linear-gradient(to right, rgb(70, 1, 70), rgb(247, 0, 115));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:unset
+}
+
+header img {
+
+    width: 310px;
+    height: 320px;
+    border-radius: 50%;
+    border: 5px solid green;
+}
+
+.center {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.box{
+
+    font-size: 30px;
+    color: greenyellow;
+    height: 250px;
+    width: 430px;
+    border-radius: 1000px;
+    background: rgb(37, 37, 37);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black; 
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 150px;
+}
+
+button{
+    
+}
+
+button {
+    height: 30px;
+    width: 50px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    font-weight: 600;
+
+
+}
